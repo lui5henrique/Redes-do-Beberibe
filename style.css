@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: white;
+
+
+    /* CORES
+    #FF6B6B - Laranja
+    #FEFD03 - Amarelo
+    #0032A2 - Azul*/
+}
+
+.header{
+    display: flex;
+    background: #FF6B6B;
+    padding: 10px 0px 10px 5px;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 110px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.menu_container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    list-style: none;
+
+
+}
+
+.menu_lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    list-style: none;
+    
+    
+    
+}
+
+.menu_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    list-style: none;
+    font-size: 1.10rem;
+    cursor: pointer;
+    font-weight: bold;
+   
+} .menu_item:hover{
+    color: #FEFD03; transition: 0.1s;
+}
+
+
+.botao_parceiro{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FEFD03;
+    color: #0032A2;
+    cursor: pointer;
+    font-size: 0.8rem;
+    
+    
+} .botao_parceiro:hover{
+    background-color: #0032A2;
+    color: #FEFD03; transition: 0.1s;
+}
